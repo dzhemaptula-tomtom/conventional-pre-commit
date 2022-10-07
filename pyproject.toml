@@ -1,9 +1,23 @@
+[tool.poetry]
+name = "conventinal-pre-commit"
+version = "0.1.0"
+description = ""
+authors = ["aptula <dzhem.aptula@tomtom.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toml = "^0.9"
+commisery = {git = "git@github.com:tomtom-international/commisery.git"}
+
+[tool.poetry.dev-dependencies]
+
 [build-system]
 requires = [
+    "poetry-core>=1.0.0",
     "setuptools>=63",
     "wheel"
-]
-build-backend = "setuptools.build_meta"
+    ]
+build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 127
