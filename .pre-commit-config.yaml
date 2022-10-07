@@ -31,12 +31,12 @@ repos:
         types:
           - python
 
-  - repo: https://github.com/pycqa/bandit
-    rev: 1.7.4
+  - repo: https://github.com/tomtom-international/commisery
+    rev: v0.10.0
     hooks:
-      - id: bandit
-        args: ["-ll"]
-        files: .py$
+      - id: tomtom-commisery
+        types:
+          - python
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v3.0.0-alpha.0
