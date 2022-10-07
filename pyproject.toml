@@ -7,7 +7,6 @@ authors = ["aptula <dzhem.aptula@tomtom.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 toml = "^0.9"
-commisery = {git = "git@github.com:tomtom-international/commisery.git"}
 
 [tool.poetry.dev-dependencies]
 
