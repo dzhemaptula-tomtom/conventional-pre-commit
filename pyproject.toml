@@ -13,8 +13,7 @@ commisery = {git = "git@github.com:tomtom-international/commisery.git"}
 requires = [
     "poetry-core>=1.0.0",
     "setuptools>=63",
-    "wheel",
-    commisery
+    "wheel"
 ]
 build-backend = "setuptools.build_meta"
 
